@@ -1,0 +1,25 @@
+.left-block {
+	top: 60%;
+	left: 30px;
+}
+
+#first-screen {
+	background: url(../../assets/img/center.png) 60% 35% no-repeat, url(../../assets/img/left-bottom.png) left bottom no-repeat, url(../../assets/img/right-top.png) top right no-repeat;
+	background-size: 60%, 124% 44%, 67% 24%;
+}
+
+header {
+	padding: 35px 40px;
+}
+
+ul.nav {
+	font-size: 25px;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-7 {
+	width: 58.33%;
+}

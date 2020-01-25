@@ -1,0 +1,9 @@
+.left-block {
+	top: 39%;
+	left: 85px;
+}
+
+#first-screen {
+	background: url(../../assets/img/center.png) 95% 50% no-repeat, url(../../assets/img/left-bottom.png) left bottom no-repeat, url(../../assets/img/right-top.png) top right no-repeat;
+	background-size: 46%, 70% 83%, 30% 28%;
+}

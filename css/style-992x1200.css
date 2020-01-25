@@ -1,0 +1,17 @@
+.left-block {
+	top: 50%;
+	left: 30px;
+}
+
+#first-screen {
+	background: url(../../assets/img/center.png) 95% 50% no-repeat, url(../../assets/img/left-bottom.png) left bottom no-repeat, url(../../assets/img/right-top.png) top right no-repeat;
+	background-size: 52%, 73% 71%, 32% 28%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-7 {
+	width: 58.33%;
+}

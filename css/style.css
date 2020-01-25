@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul li.active{
+	background:url("c:/Users/1/Desktop/WEB/20.01.20/Images/Home.png");
+	font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+   font-size: 18px;
+   line-height: 30px;
+   font-family: 'Ubuntu', sans-serif;
+}
+.nav-link
+{
+	color:#515862;
+	margin-top:0;
+	padding-top:0;  
+	padding-left:20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.S2H1
+{
+	color:#cccece;
+	padding-top:100px;  
+	font-family: 'Bebas Neue', cursive;
+	font-size: 60px;
+}
+.S2T1
+{
+	color:#cccece;
+	padding-top:50px;  
+	font-size: 14px;
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.S2Button
+{
+	color:#ffebca;
+	font-size: 25px;
+	text-align:center;
+	background: #f98561;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+.S3
+{
+	text-align:center;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	padding-bottom:100px;
+}
+.Par
+{
+	text-align:center;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	padding:0; margin:0;
+}
+.S3Button
+{
+	margin-top:-20px;  
+	font-size: 15px;
+	margin-bottom:50px;  
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.S4T1
+{
+	padding-left:50px;
+	color:#f98561;
+	font-size: 30px;
+	font-family: 'Bree Serif', serif;
+}
+.S4Button
+{
+	position:absolute;
+	text-align:right;
+	font-size: 15px;
+	background: #2190c1;
+	font-family: 'Ubuntu', sans-serif;
+}
+.Cam
+{	
+	text-align:center;
+    padding: 20px; /* Поля вокруг изображения */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    outline: 1px solid #666; /* Параметры рамки */
+    background: #f0f0f0; /* Цвет фона */
+    float: left; /* Обтекание по правому краю */
+}
+.S4H1
+{
+
+	text-align:left;
+	color:#f98561;
+	font-size: 17px;
+	font-family: 'Bree Serif', serif;
+}
+.S4P
+{
+	text-align:left;
+	color:#8e9296;
+	font-size: 11px;
+	font-family: 'Ubuntu', sans-serif;
+	padding:0; margin:0;
+}
+.S5H1
+{
+	text-align:center;
+	color:#2190c1;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+}
+
+.S5H2
+{
+	text-align:center;
+	color:#5c626c;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+    font-weight: 600; /* Жирное начертание */
+}	
+.S5H3
+{
+	margin-top:40px; 
+	color:#2b99cc;
+	font-family: 'Bree Serif', serif;
+	font-size: 14px;
+    font-weight: 400; /* Жирное начертание */
+}	
+
+.S5P1
+{
+	font-size: 11px;
+	font-family: 'Ubuntu', sans-serif;
+	padding:0; margin:0;
+	font-weight: 400; /* Жирное начертание */
+}
+.Details
+{
+	margin:0; padding:0;
+	color:#3e9dd1;
+	font-size: 14px;
+	font-family: 'Bree Serif', serif;
+}
+.S5Button
+{
+	margin-top:20px;
+	margin-left:120px;
+	font-size: 15px;
+	background: #2190c1;
+	font-family: 'Ubuntu', sans-serif;
+}
+.S6H1
+{
+	margin-top:50px;
+	text-align:center;
+	color:#2190c1;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 27px;
+}
+.S6H2
+{
+	text-align:center;
+	color:#5c626c;
+	font-family: 'Bree Serif', serif;
+	font-size: 25px;
+    font-weight: 600; /* Жирное начертание */
+}
+.S6H3
+{
+	margin-top:60px;
+	text-align:center;
+	color:#f98561;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+.F1H1
+{
+	color:#f98561;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	padding-bottom:10px;
+}
+
+.F1H2
+{
+	margin:0; 
+	padding:0;
+	color:#a3afb2;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+}
+
+.href
+{
+	margin:0; 
+	padding:0;
+	color:#2190c1;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+}
+.href
+{
+	margin:0; 
+	padding:0;
+	color:#2190c1;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+}
+.Form
+{
+	border-radius: 10px;
+}
+.S7Button
+{
+	margin-top:15px;
+	margin-left:180px;
+	font-size: 13px;
+	background: #2190c1;
+	font-family: 'Ubuntu', sans-serif;
+}
+.ficons
+{
+	font-size: 35px;
+	color:#2190c1; 
+	margin-bottom:30px;
+}

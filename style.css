@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 ul li.active{
-	background:url("c:/Users/1/Desktop/WEB/20.01.20/Images/Home.png");
+	background:url("https://igorlargin.github.io/Codlar/Images/Home.png");
 	font-family: 'Ubuntu', sans-serif;
 }
 
@@ -76,7 +76,6 @@ nav {
 }
 .S4Button
 {
-	position:absolute;
 	text-align:right;
 	font-size: 15px;
 	background: #2190c1;

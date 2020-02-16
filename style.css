@@ -69,7 +69,7 @@ nav {
 }
 .S4T1
 {
-	padding-left:50px;
+	padding-left:30px;
 	color:#f98561;
 	font-size: 30px;
 	font-family: 'Bree Serif', serif;
@@ -228,4 +228,12 @@ nav {
 	font-size: 35px;
 	color:#2190c1; 
 	margin-bottom:30px;
+}
+/* ---------------------------Portfolio---------------------- */
+.PortfolioS2H1
+{
+	color:#cccece;
+	padding-top:100px;  
+	font-family: 'Bebas Neue', cursive;
+	font-size: 80px;
 }

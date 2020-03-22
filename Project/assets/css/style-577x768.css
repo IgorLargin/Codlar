@@ -1,0 +1,21 @@
+.left-block {
+	top: 67%;
+}
+.Header
+{
+	display:block;
+	float:left;
+	padding-left: 0%;
+	margin-left: 0%;
+}
+.H2
+{
+	display:block;
+	float:left;
+	padding-left: 0px;
+	margin-left: 0%;
+}	
+#first-screen {
+	background: url(../../assets/img/center.png) 60% 35% no-repeat, url(../../assets/img/left-bottom.png) left bottom no-repeat, url(../../assets/img/right-top.png) top right no-repeat;
+	background-size: 90%, 124% 38%, 45%;
+}

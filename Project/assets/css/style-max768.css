@@ -1,0 +1,146 @@
+#first-screen {
+	background: url(../../assets/img/center.png) 60% 35% no-repeat, url(../../assets/img/left-bottom.png) left bottom no-repeat, url(../../assets/img/right-top.png) top right no-repeat;
+	background-size: 90%, 132% 51%, 65%;
+}
+
+.left-block {
+	position: absolute;
+	top: 55%;
+	left: 20px;
+	width: 64%;
+}
+
+.left-block p,
+a.btn {
+	font-size: 21px;
+}
+
+header {
+	padding: 30px 20px;
+}
+
+ul.nav {
+	font-size: 18px;
+}
+
+.col-5 {
+	width: 20%;
+}
+
+.col-7 {
+	width: 80%;
+}
+
+.left-block h1 {
+	font-size: 30px;
+}
+
+.right-block {
+	position: absolute;
+	bottom: 120px;
+	right: 9px;
+}
+
+a.btn {
+	padding: 17px;
+	width: auto;
+	height: auto;
+}
+
+ul.social a.fa {
+	margin-bottom: 7px;
+	margin-right: auto;
+}
+
+nav {
+	margin-left: auto;
+	height: auto;
+	width: 30px;
+}
+
+.responsive {
+	display: flex;
+	flex-direction: column;
+	top: 25px;
+	left: 25px;
+	z-index: 1;
+}
+
+.responsive input {
+	display: flex;
+	width: 35px;
+	height: 35px;
+	top: 20px;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 2;
+}
+
+.responsive span {
+	display: flex;
+	width: 29px;
+	height: 2px;
+	margin-bottom: 5px;
+	position: relative;
+	background: #85888c;
+	border-radius: 3px;
+	z-index: 1;
+	transform-origin: 5px 0px;
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+}
+
+.responsive span:first-child {
+	transform-origin: 0% 0%;
+}
+
+.responsive span:nth-last-child(2) {
+	transform-origin: 0% 100%;
+}
+
+.responsive input:checked~span {
+	opacity: 1;
+	transform: rotate(45deg) translate(-3px, -1px);
+	background: #36383F;
+}
+
+.responsive input:checked~span:nth-last-child(3) {
+	opacity: 0;
+	transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.responsive input:checked~span:nth-last-child(2) {
+	transform: rotate(-45deg) translate(0, -1px);
+}
+
+.nav.right-menu {
+	position: absolute;
+	top: 0px;
+	left: -100%;
+	width: 360px;
+	height: 100vh;
+	box-shadow: 0 0 10px #85888C;
+	margin: -50px 0 0 -50px;
+	padding: 50px;
+	padding-top: 125px;
+	background-color: #F5F6FA;
+	-webkit-font-smoothing: antialiased;
+}
+
+.nav.right-menu li {
+	padding: 10px 0;
+	transition-delay: 2s;
+}
+
+.responsive input:checked~ul {
+	transition-property: right;
+	transition-duration: 1s;
+	right: -30px;
+	left: unset;
+	top: 50px;
+}
+
+ul.nav,
+ul.social {
+	display: block;
+}
